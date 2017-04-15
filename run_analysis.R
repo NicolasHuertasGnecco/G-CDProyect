@@ -1,6 +1,8 @@
         ## 1. gives the file a name and getting libraries
         fname<-"Data proyect.zip"
         library(data.table)
+        library(plyr)
+        library(reshape2)
         ##2.looks for a file with the name  if not downloads the file 
         if (!file.exists(fname))
         {
